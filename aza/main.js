@@ -61,6 +61,12 @@ let track_list = [
     image: "https://musicsweb.ir/wp-content/uploads/2022/12/Majid-Bani-Fateme-Delam-oftade-dar-Dame-Aba-Abdelah-musicsweb.ir_.jpg",
     path: "media/d14da491a67e7905.mp3",
 },
+{
+    name: "الغضب العلوي",
+    artist: "السيد علي الموسوي",
+    image: "https://shiavoice.com/assets/img/cats/cd_abata.jpg",
+    path: "media/5b9ajo20mfcap.mp3",
+},
 ];
 function loadTrack(track_index) {
     // Clear the previous seek timer
