@@ -50,10 +50,10 @@ let track_list = [
     path: "media/b5f2831c79f6156e.mp3",
 },
 {
-    name: "ايها الباكون",
-    artist: "نزار القطري",
-    image: "https://source.unsplash.com/Qrspubmx6kE/640x360",
-    path: "media/be25c8660ad74cea.mp3",
+    name: "تسبيحات حزرة زهراء",
+    artist: "حاج مهدي رسولي",
+    image: "https://i1.sndcdn.com/artworks-9cU1ARYyb690zrYa-sILbfw-t500x500.jpg",
+    path: "media/73yuh20ksj.mp3",
 },
 {
     name: "دلم افتاده در دام اباعبدالله",
