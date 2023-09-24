@@ -50,7 +50,7 @@ let track_list = [
     path: "media/b5f2831c79f6156e.mp3",
 },
 {
-    name: "تسبيحات حزرة زهراء",
+    name: "تسبيحات هزرة زهراء",
     artist: "حاج مهدي رسولي",
     image: "https://i.scdn.co/image/ab67616d00001e02477959f5ac662cdfc8edfc6a",
     path: "media/73yuh20ksj.mp3",
