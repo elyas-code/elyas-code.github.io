@@ -52,7 +52,7 @@ let track_list = [
 {
     name: "تسبيحات حزرة زهراء",
     artist: "حاج مهدي رسولي",
-    image: "https://i1.sndcdn.com/artworks-9cU1ARYyb690zrYa-sILbfw-t500x500.jpg",
+    image: "https://i.scdn.co/image/ab67616d00001e02477959f5ac662cdfc8edfc6a",
     path: "media/73yuh20ksj.mp3",
 },
 {
