@@ -76,9 +76,9 @@ function random_bg_color() {
     // Construct a color with the given values
     let bgColor = "rgb(" + red + ", " + green + ", " + blue + ")";
     let bgColor2 = "rgb(" + red2 + ", " + green2 + ", " + blue2 + ")";
-    
+
     // Set the background to the new color
-    document.body.style.background = "linear-gradient(180deg,"+bgColor+", "+bgColor2+")";
+    document.body.style.background = "linear-gradient(90deg,"+bgColor+", "+bgColor2+")";
 }
 
 // Function to reset all values to their default
