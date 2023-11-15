@@ -64,9 +64,9 @@ function loadTrack(track_index) {
 function random_bg_color() {
     // Get a random number between 64 to 256
     // (for getting lighter colors)
-    let red = Math.floor(Math.random() * 100 + 30);
-    let green = Math.floor(Math.random() * 100 + 30);
-    let blue = Math.floor(Math.random() * 100 + 30);
+    let red = Math.floor(Math.random() * 256 + 64);
+    let green = Math.floor(Math.random() * 256 + 64);
+    let blue = Math.floor(Math.random() * 256 + 64);
 
     // Construct a color with the given values
     let bgColor = "rgb(" + red + ", " + green + ", " + blue + ")";
