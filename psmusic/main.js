@@ -68,11 +68,17 @@ function random_bg_color() {
     let green = Math.floor(Math.random() * 256 + 64);
     let blue = Math.floor(Math.random() * 256 + 64);
 
+
+    let red2 = Math.floor(Math.random() * 256 + 64);
+    let green2 = Math.floor(Math.random() * 256 + 64);
+    let blue2 = Math.floor(Math.random() * 256 + 64);
+
     // Construct a color with the given values
     let bgColor = "rgb(" + red + ", " + green + ", " + blue + ")";
-
+    let bgColor2 = "rgb(" + red2 + ", " + green2 + ", " + blue2 + ")";
+    
     // Set the background to the new color
-    document.body.style.background = bgColor;
+    document.body.style.background = "linear-gradient(180deg,"+bgColor+", "+bgColor2+")";
 }
 
 // Function to reset all values to their default
