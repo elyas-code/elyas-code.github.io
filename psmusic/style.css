@@ -3,8 +3,6 @@
     src:url("Arabic Typesetting Regular.ttf");
 }
 body {
-    background-color: black;
-    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     
@@ -97,7 +95,7 @@ body {
     -moz-appearance: none;
     appearance: none;
     height: 5px;
-    background: black;
+    background: white;
     opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
@@ -111,7 +109,7 @@ body {
     appearance: none;
     width: 15px;
     height: 15px;
-    background: white;
+    background: black;
     cursor: pointer;
     border-radius: 50%;
     }
