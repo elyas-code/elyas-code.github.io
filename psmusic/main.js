@@ -31,6 +31,12 @@ let track_list = [
         image: "https://i.scdn.co/image/ab67616d00001e02ac30149cda9889b2784f4f9b",
         path: "media/annadammi.mp3"
     },
+    {
+        name: "An Phailistín",
+        artist: "Sharon Shannon & Róisín Elsafty",
+        image: "https://i1.sndcdn.com/artworks-zn9o3VrBPX7z-0-t500x500.png",
+        path: "media/anphailistin.mp3"
+    }
 ];
 function loadTrack(track_index) {
     // Clear the previous seek timer
