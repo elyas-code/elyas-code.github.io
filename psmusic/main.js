@@ -48,6 +48,12 @@ let track_list = [
         artist: "Kofia",
         image: "https://i1.sndcdn.com/artworks-8sdYTcAWMzUHcURz-TPKXpQ-t500x500.jpg",
         path: "media/levepalestina.mp3"
+    },
+    {
+        name: "قاوم فيداك الاعصار",
+        artist: "جوليا بطرس",
+        image: "https://i1.sndcdn.com/artworks-000038101652-srjmvk-t500x500.jpg",
+        path: "media/resist.mp3"
     }
 ];
 function loadTrack(track_index) {
