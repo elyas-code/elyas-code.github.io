@@ -36,6 +36,18 @@ let track_list = [
         artist: "Sharon Shannon & Róisín Elsafty",
         image: "https://i1.sndcdn.com/artworks-zn9o3VrBPX7z-0-t500x500.png",
         path: "media/anphailistin.mp3"
+    },
+    {
+        name: "Rossa Palestina",
+        artist: "Umberto Fiori",
+        image: "https://i1.sndcdn.com/artworks-D5HJ0yMIUoEkql5A-QoNUfA-t500x500.jpg",
+        path: "media/rossapalestina.mp3"
+    },
+    {
+        name: "Leve Palestina",
+        artist: "Kofia",
+        image: "https://i1.sndcdn.com/artworks-8sdYTcAWMzUHcURz-TPKXpQ-t500x500.jpg",
+        path: "media/levepalestina.mp3"
     }
 ];
 function loadTrack(track_index) {
