@@ -54,6 +54,12 @@ let track_list = [
         artist: "جوليا بطرس",
         image: "https://i1.sndcdn.com/artworks-000038101652-srjmvk-t500x500.jpg",
         path: "media/resist.mp3"
+    },
+    {
+        name:"ابعت سلام بغصن زيتون",
+        artist:"اليانا",
+        image:"https://img.youm7.com/ArticleImgs/2023/10/21/62162-%D8%A5%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%B4%D8%AC%D8%B1%D8%A9-%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A8%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86.jpg",
+        path:"media/olivebranch.mp3"
     }
 ];
 function loadTrack(track_index) {
