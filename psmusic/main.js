@@ -60,6 +60,12 @@ let track_list = [
         artist:"اليانا",
         image:"https://img.youm7.com/ArticleImgs/2023/10/21/62162-%D8%A5%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%B4%D8%AC%D8%B1%D8%A9-%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D8%A8%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86.jpg",
         path:"media/olivebranch.mp3"
+    },
+    {
+        name:"رجاوي فلسطيني",
+        artist:"The Ultras مغرب",
+        image:"https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-1/353666124_222106083965073_1087727377559666484_n.jpg?stp=cp0_dst-jpg_e15_p120x120_q65&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=YXKKlEjEth8AX9Ro3F1&_nc_ht=scontent-lhr8-1.xx&oh=00_AfCQXXOhew3nGdvdwt7IlAQDcaBsdsfVAmfsGZua9v0Y_A&oe=6561388F",
+        path:"rajawi.mp3"
     }
 ];
 function loadTrack(track_index) {
