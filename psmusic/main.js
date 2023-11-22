@@ -53,7 +53,7 @@ let track_list = [
         name: "قاوم فيداك الاعصار",
         artist: "جوليا بطرس",
         image: "https://i1.sndcdn.com/artworks-000038101652-srjmvk-t500x500.jpg",
-        path: "media/resist.mp3"
+        path: "media/resistwithyourhands.mp3"
     },
     {
         name:"ابعت سلام بغصن زيتون",
@@ -65,9 +65,15 @@ let track_list = [
         name:"رجاوي فلسطيني",
         artist:"The Ultras مغرب",
         image:"https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-1/353666124_222106083965073_1087727377559666484_n.jpg?stp=cp0_dst-jpg_e15_p120x120_q65&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=YXKKlEjEth8AX9Ro3F1&_nc_ht=scontent-lhr8-1.xx&oh=00_AfCQXXOhew3nGdvdwt7IlAQDcaBsdsfVAmfsGZua9v0Y_A&oe=6561388F",
-        path:"rajawi.mp3"
+        path:"media/rajawi.mp3"
+    },
+    {
+        name:"قاوم",
+        artist:"غير معروف",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuG12w5Iud2uDsNZLUE6ygeW5js507cTlFNA&usqp=CAU",
+        path:"media/resist.mp3"
     }
-];
+]
 function loadTrack(track_index) {
     // Clear the previous seek timer
     clearInterval(updateTimer);
