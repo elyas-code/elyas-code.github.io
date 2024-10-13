@@ -1,19 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class Schedule</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="container">
-        <h1>Class Schedule</h1>
+
+<body class="dark">
+    <div class="container dark">
+        <h1 class="dark">Class Schedule</h1>
+        <label for="class-select" class="dark">Choose your class:</label>
+        <select id="class-select" class="dark">
+            <option value="0">11.CCP</option>
+            <option value="1">11.AI</option>
+            <option value="2">11.SEC</option>
+            <option value="3">12.CCP</option>
+            <option value="4">12.SEC</option>
+        </select>
+        <button id="toggle-theme">Toggle Dark Theme</button>
+
         <div id="current-class"></div>
         <div id="time-remaining"></div>
         <div id="next-class"></div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Start</th>
+                    <th>End</th>
+                    <th>Subject</th>
+                    <th>Teacher</th>
+                    <th>Room</th>
+                </tr>
+            </thead>
+            <tbody id="schedule-body"></tbody>
+        </table>
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
